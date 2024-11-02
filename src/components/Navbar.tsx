@@ -11,7 +11,7 @@ const navLinks: NavLink[] = [
   { label: 'FAQ', href: '/#faq' },
 ];
 
-const DISCORD_URL = 'https://discord.gg/your-server';
+const DISCORD_URL = 'https://discord.gg/TzJM4H2qHu';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -48,7 +48,6 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center space-x-2">
-            <Zap size={24} className="text-purple-400" />
             <span 
               onClick={() => navigate('/')}
               className="text-xl font-bold bg-gradient-to-r from-purple-400 to-pink-500 text-transparent bg-clip-text cursor-pointer hover:scale-105 transition-transform"

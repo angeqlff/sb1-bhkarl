@@ -28,7 +28,6 @@ const HomePage: React.FC<HomePageProps> = ({ products }) => {
           </div>
           <p className="text-sm text-gray-400">
             The use of third-party software may violate game terms of service. Users assume all responsibility and risk.
-            This software is for educational purposes only.
           </p>
         </div>
 
@@ -75,24 +74,6 @@ const HomePage: React.FC<HomePageProps> = ({ products }) => {
           </div>
         </section>
 
-        {/* Stats Section */}
-        <section className="mt-32 text-center">
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-8 max-w-3xl mx-auto">
-            <div className="text-center">
-              <div className="text-3xl font-bold text-white mb-2">150+</div>
-              <div className="text-gray-400">Active Users</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl font-bold text-white mb-2">99.9%</div>
-              <div className="text-gray-400">Success Rate</div>
-            </div>
-            <div className="text-center hidden md:block">
-              <div className="text-3xl font-bold text-white mb-2">24/7</div>
-              <div className="text-gray-400">Support</div>
-            </div>
-          </div>
-        </section>
-
         {/* FAQ Section */}
         <FAQ />
 
@@ -101,10 +82,10 @@ const HomePage: React.FC<HomePageProps> = ({ products }) => {
           <div className="max-w-2xl mx-auto">
             <h2 className="text-4xl font-bold mb-6">Ready to Elevate Your Game?</h2>
             <p className="text-gray-400 mb-8">
-              Join thousands of satisfied users and experience gaming at a whole new level.
+              Join some of satisfied users and experience gaming at a whole new level.
             </p>
             <button 
-              onClick={() => window.open('https://discord.gg/your-server', '_blank')}
+              onClick={() => window.open('https://discord.gg/TzJM4H2qHu', '_blank')}
               className="bg-purple-600 hover:bg-purple-500 text-white px-8 py-3 rounded-lg font-semibold flex items-center gap-2 mx-auto transition-all hover:scale-105 hover:shadow-lg hover:shadow-purple-500/20 group"
             >
               Get Started Now

@@ -43,7 +43,7 @@ const ProductPage: React.FC<ProductPageProps> = ({ products }) => {
   }, [product]);
 
   const handlePurchase = () => {
-    window.open('https://discord.gg/your-server', '_blank');
+    window.open('https://discord.gg/TzJM4H2qHu', '_blank');
   };
 
   const ProductIcon = product.icon;

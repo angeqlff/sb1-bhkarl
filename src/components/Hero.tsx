@@ -47,7 +47,7 @@ const Hero = () => {
 
         <div className="mt-16 grid grid-cols-2 md:grid-cols-3 gap-8 max-w-3xl mx-auto">
           <div className="text-center">
-            <div className="text-3xl font-bold text-white mb-2">10k+</div>
+            <div className="text-3xl font-bold text-white mb-2">150+</div>
             <div className="text-gray-400">Active Users</div>
           </div>
           <div className="text-center">

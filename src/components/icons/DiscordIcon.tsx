@@ -15,10 +15,11 @@ const DiscordIcon: React.FC<DiscordIconProps> = ({ className = '' }) => (
     strokeLinejoin="round"
     className={className}
   >
-    <path d="M18 9a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v6a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V9Z" />
-    <circle cx="9" cy="12" r="1" />
-    <circle cx="15" cy="12" r="1" />
+    <path d="M21 11.5a8.38 8.38 0 0 1-2.4 5.8 8.5 8.5 0 0 1-12 0A8.38 8.38 0 0 1 4 11.5a8.5 8.5 0 0 1 17 0Z" />
+    <path d="M8 13h8M8 9h8" />
+    <path d="M12 17v3l-2-2h-3" />
   </svg>
 );
+
 
 export default DiscordIcon;
